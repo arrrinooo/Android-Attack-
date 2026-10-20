@@ -1,44 +1,43 @@
 # Android Attack
 
-Prosta gra zręcznościowa (arcade) stworzona w języku Python przy użyciu biblioteki Pygame.
+A simple arcade game built in Python using the Pygame library.
 
-## Zasady gry
+## How to Play
 
-Twój cel jest prosty: przetrwać jak najdłużej i zebrać jak najwięcej punktów.
+Your goal is simple: survive as long as possible and collect as many points as you can.
 
-1.  **Sterowanie:**
-    * Użyj klawisza **W**, aby lecieć w górę.
-    * Użyj klawisza **S**, aby lecieć w dół.
-2.  **Punkty:**
-    * Zbieraj **Gwiazdki**. Każda gwiazdka to +10 punktów.
-    * Z czasem gra przyspiesza, a gwiazdki i wrogowie poruszają się szybciej.
-3.  **Zagrożenia:**
-    * Unikaj **Androidów**. Zderzenie z nimi zabiera jedno życie.
-    * Masz tylko **3 życia**. Po ich utracie gra się kończy.
+1.  **Controls:**
+    * Use the **W** key to fly up.
+    * Use the **S** key to fly down.
+2.  **Points:**
+    * Collect **Stars**. Each star is worth +10 points.
+    * Over time, the game speeds up, and both stars and enemies move faster.
+3.  **Hazards:**
+    * Avoid the **Androids**. Colliding with them costs you one life.
+    * You only have **3 lives**. Once you lose them all, the game is over.
 4.  **High Score:**
-    * Gra automatycznie zapamiętuje Twój najlepszy wynik (zapisuje go w pliku `highscore.txt`). Spróbuj go pobić!
+    * The game automatically saves your best score (stored in the `highscore.txt` file). Try to beat it!
 
-## Technologie i Narzędzia
+## Technologies and Tools
 
-Gra została napisana w **Pythonie** i korzysta z następujących technologii:
+The game was written in **Python** and uses the following technologies:
 
-* **Silnik gry:** [Pygame 2.6.1](https://www.pygame.org/docs/)
-    * Biblioteka posłużyła do obsługi grafiki, sterowania oraz kolizji.
+- **Game Engine:** [Pygame 2.6.1](https://www.pygame.org/docs/)
+    * This library was used to handle graphics, controls, and collisions.
 
-### Grafika i Design:
-* **Pixel Art (Rakieta, wrogowie, gwiazdki):** Stworzone przy użyciu edytora [LibreSprite](https://libresprite.github.io/#!/).
-* **Ramka automatu (Overlay):** Wygenerowana przy pomocy sztucznej inteligencji [PixVerse AI](https://app.pixverse.ai/).
+### Graphics and Design:
+- **Pixel Art (Rocket, enemies, stars):** Created using the [LibreSprite](https://libresprite.github.io/#!/) editor.
+- **Arcade Frame (Overlay):** Generated using [PixVerse AI](https://app.pixverse.ai/).
 
-## Źródła i Inspiracje
+## Credits & Inspiration
 
-Projekt powstał w celach edukacyjnych. Przy jego tworzeniu korzystałam z następujących źródeł:
+This project was created for educational purposes. I used the following resources during its development:
 
-* **Główna inspiracja:** Tutorial na kanale Clear Code na YouTube: [Oglądaj tutaj](https://www.youtube.com/watch?v=-FoziIlV7N0&t=3532s). To wideo pomogło mi zrozumieć podstawy struktury gry w Pygame.
-* **Literatura i podstawy:**
-    * Podstawy języka Python i programowania opanowałam dzięki książce **"Hello World! Computer Programming for Kids and Other Beginners"** (Warren Sande, Carter Sande). [Link do materiałów](https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Python/Hello%20World%20-%20Computer%20Programming%20for%20Kids%20and%20Other%20Beginners%2C%20Fourth%20printing%20%282009%29.pdf).
-* **Dokumentacja Pygame i wiedza ogólna:**
-    * Rozwiązania dotyczące mechaniki ruchu oraz obsługa przycisków myszką zostały zaimplementowane w oparciu o oficjalną [dokumentację Pygame](https://www.pygame.org/docs/) oraz ogólnodostępne poradniki programistyczne.
-
+- **Main inspiration:** A tutorial on the Clear Code YouTube channel: [Watch here](https://www.youtube.com/watch?v=-FoziIlV7N0&t=3532s). This video helped me understand the basic structure of a Pygame game.
+- **Literature and Basics:**
+    * I learned the basics of Python and programming thanks to the book **"Hello World! Computer Programming for Kids and Other Beginners"** (Warren Sande, Carter Sande). [Link to materials](https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Python/Hello%20World%20-%20Computer%20Programming%20for%20Kids%20and%20Other%20Beginners%2C%20Fourth%20printing%20%282009%29.pdf).
+- **Pygame Documentation and General Knowledge:**
+    * Solutions for movement mechanics and mouse button handling were implemented based on the official [Pygame documentation](https://www.pygame.org/docs/) and publicly available programming tutorials.
 
 ---
-## Miłej gry!
+## Enjoy the game!
